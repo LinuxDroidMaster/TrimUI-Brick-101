@@ -3,9 +3,8 @@
 Welcome to the ultimate guide for the TrimUI Brick! This repository contains everything you need to know about installing firmware, using Pico-8, PortMaster, and exploring HackROMs for your handheld console. Let's dive into the details! 🚀
 
 > [!TIP]  
-> 🎥 **All the information in the video here:** *(to be published in a week)*   
+> 🎥 **All the information in the video here:** *(to be published in a week)*  
 > 🌟 **Subscribe to my YouTube channel for more content:** [LinuxDroidMaster](https://www.youtube.com/@LinuxDroidMaster)
-
 
 ## 📖 Table of Contents
 - [📥 Firmware Downloads](#-firmware-downloads)
@@ -14,6 +13,7 @@ Welcome to the ultimate guide for the TrimUI Brick! This repository contains eve
   - [🔹 MinUI Firmware](#minui-firmware)
   - [🔹 Knulli Firmware](#knulli-firmware)
   - [🔹 CrossMix Firmware](#crossmix-firmware)
+  - [🔹 Other Community Firmwares](#other-community-firmwares)
 - [🎮 Pico-8](#-pico-8)
 - [🛠️ PortMaster](#-portmaster)
 - [🔄 How to Install Firmware](#-how-to-install-firmware)
@@ -44,12 +44,19 @@ A custom firmware based on Batocera, currently in pre-alpha.
 A custom firmware still in development, with the latest version available for testing.
 - **Download:** [CrossMix Firmware](https://github.com/cizia64/CrossMix-OS/releases)
 
+### 🔹 Other Community Firmwares <a name="other-community-firmwares"></a>
+Discover more community-driven firmware projects:
+- **AnotherStockMix**: A custom version of StockMix modified to fit the creator's preferences.
+  - **Download:** [AnotherStockMix Firmware](https://github.com/rulerofoz/AnotherStockMix)
+
 ## 🎮 Pico-8 <a name="-pico-8"></a>
 
 Pico-8 is a virtual console that brings the retro 16-bit experience to your TrimUI Brick. Here’s how to get started:
 
-- **Tutorial:** [How to Install Pico-8](https://www.youtube.com/watch?v=BxED85l9wvo)
+- **Tutorial from Retro Game Corps:** [How to Install Pico-8](https://www.youtube.com/watch?v=BxED85l9wvo)
+- **Additional Guide:** [Pico-8 Installation on TrimUI Brick](https://github.com/Ninoh-FOX/pico8-trimui-brick)
 - **Top 200 Games:** [Top 200 Pico-8 Games](https://nerdyteachers.com/PICO-8/Games/Top200/)
+
 
 ## 🛠️ PortMaster <a name="-portmaster"></a>
 
