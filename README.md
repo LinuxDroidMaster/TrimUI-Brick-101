@@ -79,12 +79,18 @@ Explore custom Pokémon HackROMs to elevate your gaming experience:
 ## 🌟 Community Improvements <a name="-community-improvements"></a>
 
 ### 🔧 The Best Setup for NDS Games
-Looking to play Nintendo DS games on your TrimUI Brick with the best layouts? Check out this community tutorial using the **MinUI Firmware**:
-- **Guide:** [DraStic Advanced NDS Setup](https://www.reddit.com/r/trimui/comments/1i7cbbm/update_drastic_advanced_nds_on_the_trimui_brick/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+Looking to play Nintendo DS games on your TrimUI Brick with the best performance? This setup leverages the **MinUI Firmware** for optimal results.  
+- **Layouts and Details:** Check out the community post on Reddit to see some images: [DraStic Layout Post](https://www.reddit.com/r/trimui/comments/1i7cbbm/update_drastic_advanced_nds_on_the_trimui_brick/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)  
+- **Downloads and Compatibility:** View the available layout versions tailored to your MinUI version on this Discord message: [DraStic Advanced NDS Setup](https://discord.com/channels/741895796315914271/1095561573046685696/1331914674589012040)
 
 ### 🛠️ Tools and Utilities for MinUI
 Discover upcoming tools and utilities designed to enhance your experience with the **MinUI Firmware**. Keep an eye on this repository for future updates:
 - **Repo:** [PakUI - Tools for MinUI](https://github.com/tenlevels/PakUI)
+
+### 💬 Join the Retro Handheld Community!
+Connect with thousands of retro handheld enthusiasts in the largest Discord server dedicated to the topic. Get support, share tips, and stay updated on the latest firmware and tools:  
+- **Join the Server:** [Retro Handhelds Discord](https://discord.gg/fcUABy5t)
+
 
 
 ## 📝 Bonus: ROMs & BIOS <a name="-bonus-roms--bios"></a>
