@@ -3,7 +3,7 @@
 Welcome to the ultimate guide for the TrimUI Brick! This repository contains everything you need to know about installing firmware, using Pico-8, PortMaster, and exploring HackROMs for your handheld console. Let's dive into the details! 🚀
 
 > [!TIP]  
-> 🎥 **All the information in the video here:** [TrimUI Basics Video: Custom firmwares, PortMaster, Pico8, HackRoms, etc](https://youtu.be/H1YYyXFfxeY)  
+> 🎥 **All the basic information in the video here:** [TrimUI Basics Video: Custom firmwares, PortMaster, Pico8, HackRoms, etc](https://youtu.be/H1YYyXFfxeY)  
 > 🌟 **Subscribe to my YouTube channel for more content:** [LinuxDroidMaster](https://www.youtube.com/@LinuxDroidMaster)
 
 ## 📖 Table of Contents
