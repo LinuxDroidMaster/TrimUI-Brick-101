@@ -34,8 +34,11 @@ An enhanced version of the stock firmware with additional features.
 - **Download:** [StockMix Firmware](https://github.com/costlyclick/stockmix/)
 
 ### 🔹 MinUI Firmware <a name="minui-firmware"></a>
-A minimalist firmware focused on a streamlined gaming experience.
-- **Download:** [MinUI Firmware](https://github.com/shauninman/MinUI/releases)
+A minimalist firmware focused on a streamlined gaming experience. Highly recommended for those seeking better performance and customization options.
+
+- **Download:** [MinUI Firmware](https://github.com/shauninman/MinUI/releases)  
+- **Recommendation:** Be sure to check out the **Community Improvements** section for guides, tools, and advanced setups tailored specifically for MinUI users!
+
 
 ### 🔹 Knulli Firmware <a name="knulli-firmware"></a>
 A custom firmware based on Batocera, currently in pre-alpha.
