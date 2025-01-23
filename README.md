@@ -78,18 +78,26 @@ Explore custom Pokémon HackROMs to elevate your gaming experience:
 
 ## 🌟 Community Improvements <a name="-community-improvements"></a>
 
-### 🔧 The Best Setup for NDS Games
+### 🔧 MinUI Guides & Tutorials
+Get the most out of your TrimUI Brick with the **MinUI Firmware** through these resources:
+- **Guide Video:** [Retro Game Corps Simple TrimUI Brick MinUI Guide](https://www.youtube.com/watch?v=LuRzFccr8rw)  
+- **Step-by-Step Guide:** [Retro Game Corps Simple TrimUI Brick Guide Post](https://retrogamecorps.com/2024/12/09/my-simple-trimui-brick-setup/)  
+
+### 🛠️ MinUI Tools & Utilities
+Take your MinUI experience further with these tools, utilities, and custom applications:
+- **Custom Optional PAKs for MinUI:** [Custom MinUI PAKs](https://github.com/ryanmsartor/TrimUI-Brick-and-Smart-Pro-Custom-MinUI-Paks)  
+- **PortMaster for MinUI (TRIM_UI_EX):** [TRIM_UI_EX Repository](https://github.com/kloptops/TRIMUI_EX)  
+- **PakUI - Tools for MinUI:** [PakUI Repository](https://github.com/tenlevels/PakUI)  
+
+### 🎮 The Best Setup for NDS Games
 Looking to play Nintendo DS games on your TrimUI Brick with the best performance? This setup leverages the **MinUI Firmware** for optimal results.  
 - **Layouts and Details:** Check out the community post on Reddit to see some images: [DraStic Layout Post](https://www.reddit.com/r/trimui/comments/1i7cbbm/update_drastic_advanced_nds_on_the_trimui_brick/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)  
 - **Downloads and Compatibility:** View the available layout versions tailored to your MinUI version on this Discord message: [DraStic Advanced NDS Setup](https://discord.com/channels/741895796315914271/1095561573046685696/1331914674589012040)
 
-### 🛠️ Tools and Utilities for MinUI
-Discover upcoming tools and utilities designed to enhance your experience with the **MinUI Firmware**. Keep an eye on this repository for future updates:
-- **Repo:** [PakUI - Tools for MinUI](https://github.com/tenlevels/PakUI)
-
 ### 💬 Join the Retro Handheld Community!
 Connect with thousands of retro handheld enthusiasts in the largest Discord server dedicated to the topic. Get support, share tips, and stay updated on the latest firmware and tools:  
 - **Join the Server:** [Retro Handhelds Discord](https://discord.gg/fcUABy5t)
+
 
 
 
