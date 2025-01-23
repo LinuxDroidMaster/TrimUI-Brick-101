@@ -79,8 +79,13 @@ Explore custom Pokémon HackROMs to elevate your gaming experience:
 ## 🌟 Community Improvements <a name="-community-improvements"></a>
 
 ### 🔧 The Best Setup for NDS Games
-Looking to play Nintendo DS games on your TrimUI Brick with the best layouts? Check out this community tutorial using the **MinUI Firmware**:
+Looking to play Nintendo DS games on your TrimUI Brick with the best performance? Check out this community tutorial using the **MinUI Firmware**:
 - **Guide:** [DraStic Advanced NDS Setup](https://www.reddit.com/r/trimui/comments/1i7cbbm/update_drastic_advanced_nds_on_the_trimui_brick/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+### 🛠️ Tools and Utilities for MinUI
+Discover upcoming tools and utilities designed to enhance your experience with the **MinUI Firmware**. Keep an eye on this repository for future updates:
+- **Repo:** [PakUI - Tools for MinUI](https://github.com/tenlevels/PakUI)
+
 
 ## 📝 Bonus: ROMs & BIOS <a name="-bonus-roms--bios"></a>
 
