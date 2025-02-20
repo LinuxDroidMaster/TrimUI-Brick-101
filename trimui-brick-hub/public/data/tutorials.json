@@ -48,6 +48,18 @@
       "title": "TrimUI Brick 101: Firmware, Pico-8, PortMaster & More!",
       "description": "The ultimate guide for the TrimUI Brick! Covers installing firmware (MinUI, StockMix, CrossMix, etc.), using Pico-8, setting up PortMaster, and exploring HackROMs.",
       "link": "https://github.com/LinuxDroidMaster/TrimUI-Brick-101"
-    }
+    },
+    {
+      "id": 3,
+      "title": "TrimUI Brick Setup Guide (Retro Handhelds)",
+      "description": "A complete guide to setting up the TrimUI Brick, including firmware installation, recommended settings, and customization options.",
+      "link": "https://retrohandhelds.gg/trimui-brick-setup-guide/"
+    },
+    {
+      "id": 4,
+      "title": "DraStic Advanced NDS on the TrimUI Brick",
+      "description": "An advanced guide for optimizing DraStic (Nintendo DS emulator) on the TrimUI Brick, including custom layouts and settings.",
+      "link": "https://www.reddit.com/r/trimui/comments/1i7cbbm/update_drastic_advanced_nds_on_the_trimui_brick/"
+    }        
   ]
 }
