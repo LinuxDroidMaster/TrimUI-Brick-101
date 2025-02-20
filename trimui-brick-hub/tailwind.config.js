@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class", // Permite cambiar el modo manualmente con "dark"
   content: [
     "./src/app/**/*.{js,jsx}",
     "./src/components/**/*.{js,jsx}",
@@ -8,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        retro: ["'Press Start 2P'", "cursive"], // Fuente pixelada
+        retro: ["'Press Start 2P'", "cursive"],
       },
       colors: {
         retroBlue: "#00A3E0",
