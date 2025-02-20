@@ -1,20 +1,34 @@
 {
-    "faqs": [
-      {
-        "id": 1,
-        "question": "What should I do if my TrimUI Brick doesn’t come with a microSD card?",
-        "answer": "If your TrimUI Brick doesn’t include a microSD card, you’ll need to get one (preferably 64GB or larger) and flash an operating system onto it. Recommended options: <a href='https://example.com/minui' target='_blank' class='faq-link'>MinUI</a>, <a href='https://example.com/knulli' target='_blank' class='faq-link'>Knulli</a>, <a href='https://example.com/stockmix' target='_blank' class='faq-link'>StockMix</a>."
-      },
-      {
-        "id": 2,
-        "question": "Best configuration for NDS (Nintendo DS)?",
-        "answer": "For the best NDS performance, use <a href='https://drastic-ds.com/' target='_blank' class='faq-link'>DraStic</a> as the emulator. Set frameskip to auto, enable threaded 3D rendering, and adjust the screen layout for your preferred experience."
-      },
-      {
-        "id": 3,
-        "question": "How to install MinUI, Knulli, StockMix, CrossMix, or other custom firmware?",
-        "answer": "Installing custom firmware requires flashing the new OS onto a microSD card. Check this <a href='https://example.com/custom-firmware-guide' target='_blank' class='faq-link'>step-by-step guide</a>."
-      }
-    ]
-  }
-  
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What should I do if I buy a TrimUI Brick without a microSD card?",
+      "answer": "If your TrimUI Brick doesn’t come with a microSD card, you will need to purchase one (recommended size: 64GB or larger). Additionally, you must install a firmware before using the console. Check the <a href='/guides' target='_blank' class='faq-link'>Guides page</a> for step-by-step instructions."
+    },
+    {
+      "id": 2,
+      "question": "What custom firmwares are available for the TrimUI Brick?",
+      "answer": "The TrimUI Brick supports multiple custom firmwares, including MinUI, Knulli, StockMix, CrossMix, AnotherStockMix, and Stock. For detailed installation guides and comparisons, visit <a href='https://github.com/LinuxDroidMaster/TrimUI-Brick-101' target='_blank' class='faq-link'>this guide</a>."
+    },
+    {
+      "id": 3,
+      "question": "Looking for a community to ask questions or talk about games and the console?",
+      "answer": "Join the community on <a href='https://www.reddit.com/r/trimui/' target='_blank' class='faq-link'>Reddit</a> or chat with other handheld gaming enthusiasts on the <a href='https://discord.gg/c4xWQW6w' target='_blank' class='faq-link'>Retro Handhelds Discord</a>."
+    },
+    {
+      "id": 4,
+      "question": "Where can I find the full technical specifications of the TrimUI Brick?",
+      "answer": "You can view all technical details and specs of the TrimUI Brick on the <a href='/info' target='_blank' class='faq-link'>Info page</a>."
+    },
+    {
+      "id": 5,
+      "question": "How can I compare the TrimUI Brick with other handheld consoles?",
+      "answer": "If you're unsure whether the TrimUI Brick is the right console for you, check out <a href='https://retrocatalog.com/' target='_blank' class='faq-link'>RetroCatalog</a> for a comparison with other handheld devices."
+    },
+    {
+      "id": 6,
+      "question": "Where can I find more information about Pokémon ROM hacks?",
+      "answer": "For discussions, recommendations, and downloads of Pokémon ROM hacks, visit the dedicated community on <a href='https://www.reddit.com/r/PokemonROMhacks/' target='_blank' class='faq-link'>r/PokemonROMhacks</a>."
+    }
+  ]
+}
