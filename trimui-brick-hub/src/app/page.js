@@ -14,31 +14,29 @@ export default function Home() {
         Start
       </a>
 
-      {/* Sección de Apoyo */}
-      <h2 className="text-retroBlue text-2xl md:text-3xl mt-10 mb-4 font-bold">
-        Support the Project
-      </h2>
-      <p className="text-black dark:text-white max-w-2xl">
-        If you enjoy this project, you can support me by subscribing to my YouTube channel or donating on Ko-fi!
-      </p>
+      {/* Separador */}
+      <hr className="w-48 border-t-2 border-gray-500 my-8" />
 
-      {/* Botones de apoyo (YouTube y Ko-fi) */}
-      <div className="mt-6 flex flex-col md:flex-row gap-4">
+      {/* Sección de Apoyo (más discreta) */}
+      <p className="text-sm text-gray-700 dark:text-gray-300">
+        Enjoying this project? Support me on YouTube or Ko-fi!
+      </p>
+      <div className="mt-4 flex flex-col md:flex-row gap-3">
         <a
           href="https://www.youtube.com/@LinuxDroidMaster"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-red-600 hover:bg-red-500 text-white font-bold py-2 px-6 border-4 border-black shadow-lg w-64 text-center"
+          className="bg-red-600 hover:bg-red-500 text-white font-bold py-2 px-4 border-4 border-black shadow-lg w-52 text-center text-sm"
         >
-          ▶️ Subscribe on YouTube
+          ▶️ Subscribe
         </a>
         <a
           href="https://ko-fi.com/droidmaster"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#29abe0] hover:bg-[#1f92c0] text-white font-bold py-2 px-6 border-4 border-black shadow-lg w-64 text-center"
+          className="bg-[#29abe0] hover:bg-[#1f92c0] text-white font-bold py-2 px-4 border-4 border-black shadow-lg w-52 text-center text-sm"
         >
-          ☕ Donate on Ko-fi
+          ☕ Donate
         </a>
       </div>
 
