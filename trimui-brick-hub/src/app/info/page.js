@@ -8,7 +8,7 @@ export default function InfoPage() {
       {/* Imagen de la consola */}
       <div className="flex justify-center mb-6">
         <img
-          src="/trimui-brick.png"
+          src="/images/trimui-brick.png"
           alt="TrimUI Brick Handheld"
           className="w-64 border-4 border-black"
         />

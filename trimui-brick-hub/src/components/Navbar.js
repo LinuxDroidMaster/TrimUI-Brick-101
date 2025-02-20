@@ -40,13 +40,13 @@ export default function Navbar() {
         {/* Menú para pantallas grandes */}
         <ul className="hidden md:flex gap-4">
           <li>
-            <Link href="/tutorials" className="hover:text-gray-400">
-              Tutorials
+            <Link href="/faqs" className="hover:text-gray-400">
+              FAQs
             </Link>
           </li>
           <li>
-            <Link href="/videos" className="hover:text-gray-400">
-              Videos
+            <Link href="/guides" className="hover:text-gray-400">
+              Guides
             </Link>
           </li>
           <li>
@@ -72,13 +72,13 @@ export default function Navbar() {
         <div className="md:hidden bg-gray-900 text-white p-4 mt-2 rounded-lg">
           <ul className="flex flex-col gap-4">
             <li>
-              <Link href="/tutorials" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
-                Tutorials
+              <Link href="/faqs" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
+                FAQs
               </Link>
             </li>
             <li>
-              <Link href="/videos" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
-                Videos
+              <Link href="/guides" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
+                Guides
               </Link>
             </li>
             <li>

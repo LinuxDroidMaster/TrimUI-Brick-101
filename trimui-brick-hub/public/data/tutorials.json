@@ -1,0 +1,53 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "TrimUI Brick – First Impressions & Setup Guide (MinUI)",
+      "description": "A step-by-step guide to setting up the TrimUI Brick, including firmware installation, emulator setup, and tweaks with MinUI.",
+      "thumbnail": "https://img.youtube.com/vi/LuRzFccr8rw/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=LuRzFccr8rw"
+    },
+    {
+      "id": 2,
+      "title": "How to Mod Your TrimUI Brick – Buttons & Metal Backplate Customization",
+      "description": "A guide on customizing your TrimUI Brick, including button replacements and metal backplate engraving.",
+      "thumbnail": "https://img.youtube.com/vi/cllfVrNmBK0/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=cllfVrNmBK0"
+    },
+    {
+      "id": 3,
+      "title": "TrimUI Brick Review: Worth Every Penny",
+      "description": "A deep-dive review of the TrimUI Brick by Retro Game Corps, covering build quality, performance, and firmware options.",
+      "thumbnail": "https://img.youtube.com/vi/F1fHemFCi3I/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=F1fHemFCi3I"
+    },
+    {
+      "id": 4,
+      "title": "Your New Everyday Handheld! // TrimUI Brick REVIEW",
+      "description": "TechDWeeb reviews the TrimUI Brick, discussing its strengths, weaknesses, and potential as a daily handheld.",
+      "thumbnail": "https://img.youtube.com/vi/81dNYl1XXak/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=81dNYl1XXak"
+    },
+    {
+      "id": 5,
+      "title": "🔧 TrimUI Brick: Easy Guide to Installing Firmwares, Pico-8, PortMaster & More! 🎮",
+      "description": "A complete guide by LinuxDroidMaster on installing custom firmwares, setting up Pico-8, using PortMaster, and more.",
+      "thumbnail": "https://img.youtube.com/vi/H1YYyXFfxeY/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=H1YYyXFfxeY"
+    }
+  ],
+  "guides": [
+    {
+      "id": 1,
+      "title": "My Simple TrimUI Brick Setup (MinUI)",
+      "description": "A step-by-step guide to setting up the TrimUI Brick, including firmware installation, emulator setup, and tweaks with MinUI.",
+      "link": "https://retrogamecorps.com/2024/12/09/my-simple-trimui-brick-setup/"
+    },
+    {
+      "id": 2,
+      "title": "TrimUI Brick 101: Firmware, Pico-8, PortMaster & More!",
+      "description": "The ultimate guide for the TrimUI Brick! Covers installing firmware (MinUI, StockMix, CrossMix, etc.), using Pico-8, setting up PortMaster, and exploring HackROMs.",
+      "link": "https://github.com/LinuxDroidMaster/TrimUI-Brick-101"
+    }
+  ]
+}

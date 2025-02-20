@@ -1,0 +1,20 @@
+{
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What should I do if my TrimUI Brick doesn’t come with a microSD card?",
+        "answer": "If your TrimUI Brick doesn’t include a microSD card, you’ll need to get one (preferably 64GB or larger) and flash an operating system onto it. Recommended options: <a href='https://example.com/minui' target='_blank' class='faq-link'>MinUI</a>, <a href='https://example.com/knulli' target='_blank' class='faq-link'>Knulli</a>, <a href='https://example.com/stockmix' target='_blank' class='faq-link'>StockMix</a>."
+      },
+      {
+        "id": 2,
+        "question": "Best configuration for NDS (Nintendo DS)?",
+        "answer": "For the best NDS performance, use <a href='https://drastic-ds.com/' target='_blank' class='faq-link'>DraStic</a> as the emulator. Set frameskip to auto, enable threaded 3D rendering, and adjust the screen layout for your preferred experience."
+      },
+      {
+        "id": 3,
+        "question": "How to install MinUI, Knulli, StockMix, CrossMix, or other custom firmware?",
+        "answer": "Installing custom firmware requires flashing the new OS onto a microSD card. Check this <a href='https://example.com/custom-firmware-guide' target='_blank' class='faq-link'>step-by-step guide</a>."
+      }
+    ]
+  }
+  

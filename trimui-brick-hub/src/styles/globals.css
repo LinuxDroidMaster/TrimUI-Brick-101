@@ -18,3 +18,15 @@ body {
   transform: translate(-2px, -2px);
   box-shadow: 6px 6px black;
 }
+
+.faq-link {
+  color: #facc15; /* Amarillo brillante */
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Subrayado grueso */
+  transition: color 0.2s ease-in-out;
+}
+
+.faq-link:hover {
+  color: #fde047; /* Amarillo más claro al pasar el mouse */
+}
