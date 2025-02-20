@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: theme("fontFamily.retro");
+  text-transform: uppercase;
+}
+
+/* Botón con efecto retro */
+.retro-button {
+  background: theme("colors.retroBlue");
+  color: white;
+  padding: 10px 20px;
+  border: 4px solid black;
+  box-shadow: 4px 4px black;
+  font-size: 14px;
+  transition: all 0.1s ease-in-out;
+}
+
+.retro-button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px black;
+}
