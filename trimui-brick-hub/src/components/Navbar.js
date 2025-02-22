@@ -31,33 +31,46 @@ export default function Navbar() {
 
   return (
     <header className="p-4 bg-gray-800 text-white">
-      <nav className="flex justify-between items-center max-w-4xl mx-auto">
+      <nav className="flex justify-between items-center max-w-5xl mx-auto">
         {/* Logo */}
-        <h1 className="text-xl font-bold">
+        <h1 className="text-lg font-bold">
           <Link href="/">TrimUI Brick Hub</Link>
         </h1>
 
         {/* Menú para pantallas grandes */}
-        <ul className="hidden md:flex gap-4">
+        <ul className="hidden md:flex gap-6 text-sm">
           <li>
-            <Link href="/faqs" className="hover:text-gray-400">
+            <Link href="/faqs" className="hover:text-gray-400 px-2">
               FAQs
             </Link>
           </li>
           <li>
-            <Link href="/guides" className="hover:text-gray-400">
+            <Link href="/guides" className="hover:text-gray-400 px-2">
               Guides
             </Link>
           </li>
           <li>
-            <Link href="/info" className="hover:text-gray-400">
+            <Link href="/firmwares" className="hover:text-gray-400 px-2">
+              Firmwares
+            </Link>
+          </li>
+          <li>
+            <Link href="/accessories" className="hover:text-gray-400 px-2">
+              Accessories
+            </Link>
+          </li>
+          <li>
+            <Link href="/info" className="hover:text-gray-400 px-2">
               Info
             </Link>
           </li>
         </ul>
 
         {/* Botón de modo oscuro */}
-        <button onClick={toggleDarkMode} className="hidden md:block retro-button px-4 py-2 text-sm">
+        <button
+          onClick={toggleDarkMode}
+          className="hidden md:block retro-button px-3 py-1 text-xs"
+        >
           {darkMode ? "☀️" : "🌙"}
         </button>
 
@@ -79,6 +92,16 @@ export default function Navbar() {
             <li>
               <Link href="/guides" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
                 Guides
+              </Link>
+            </li>
+            <li>
+              <Link href="/firmwares" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
+                Firmwares
+              </Link>
+            </li>
+            <li>
+              <Link href="/accessories" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
+                Accessories
               </Link>
             </li>
             <li>

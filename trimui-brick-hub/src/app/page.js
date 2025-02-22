@@ -19,7 +19,7 @@ export default function Home() {
 
       {/* Sección de Apoyo (más discreta) */}
       <p className="text-sm text-gray-700 dark:text-gray-300">
-        Enjoying this project? Support me on YouTube or Ko-fi!
+        Enjoying this project? Support me on YouTube, Ko-fi, or by shopping on AliExpress at no extra cost!
       </p>
       <div className="mt-4 flex flex-col md:flex-row gap-3">
         <a
@@ -38,7 +38,16 @@ export default function Home() {
         >
           ☕ Donate
         </a>
+        <a
+          href="https://s.click.aliexpress.com/e/_EwN4dte"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#FF4747] hover:bg-[#D93E3E] text-white font-bold py-2 px-4 border-4 border-black shadow-lg w-52 text-center text-sm"
+        >
+          🛒 Buy on AliExpress
+        </a>
       </div>
+
 
       {/* Sección de Contacto (más pequeña) */}
       <div className="mt-10 text-sm text-gray-600 dark:text-gray-400">
