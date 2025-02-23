@@ -39,6 +39,7 @@ export default function FirmwaresPage() {
           title="CrossMix"
           description="An experimental custom firmware with new features."
           link="https://github.com/cizia64/CrossMix-OS/releases"
+          badge="🚧 In Development"
         />
         <FirmwareCard
           title="StockMix"
@@ -61,6 +62,7 @@ export default function FirmwaresPage() {
           title="Knulli"
           description="A firmware based on Batocera, currently in development."
           link="https://github.com/knulli-cfw/distribution/releases"
+          badge="🚧 In Development"
         />
       </div>
 
@@ -96,11 +98,18 @@ export default function FirmwaresPage() {
   );
 }
 
-// Reusable Firmware Card Component
-function FirmwareCard({ title, description, link }) {
+// Reusable Firmware Card Component with Optional Badge
+function FirmwareCard({ title, description, link, badge }) {
   return (
     <div className="border-4 border-black p-4 bg-gray-200 dark:bg-gray-800 text-center">
       <h3 className="text-lg font-bold text-black dark:text-white">{title}</h3>
+      {badge && (
+        <div className="mt-2 mb-2">
+          <span className="bg-yellow-400 text-black text-xs font-bold px-2 py-1 border-2 border-black inline-block">
+            {badge}
+          </span>
+        </div>
+      )}
       <p className="text-sm text-gray-700 dark:text-gray-300">{description}</p>
       <a
         href={link}
@@ -113,3 +122,4 @@ function FirmwareCard({ title, description, link }) {
     </div>
   );
 }
+
