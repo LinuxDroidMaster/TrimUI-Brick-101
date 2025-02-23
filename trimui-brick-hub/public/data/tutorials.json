@@ -34,7 +34,15 @@
       "description": "A complete guide by LinuxDroidMaster on installing custom firmwares, setting up Pico-8, using PortMaster, and more.",
       "thumbnail": "https://img.youtube.com/vi/H1YYyXFfxeY/hqdefault.jpg",
       "videoUrl": "https://www.youtube.com/watch?v=H1YYyXFfxeY"
+    },
+    {
+      "id": 6,
+      "title": "🎮TrimUI Brick: How to install custom buttons!🛠️",
+      "description": "A complete guide on modding the TrimUI Brick, including button swaps, backplate customization, and teardown.",
+      "thumbnail": "https://img.youtube.com/vi/sxAusVVl9io/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=sxAusVVl9io"
     }
+    
   ],
   "guides": [
     {

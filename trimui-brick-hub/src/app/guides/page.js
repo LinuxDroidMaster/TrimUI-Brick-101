@@ -57,7 +57,7 @@ export default function GuidesPage() {
       {/* Sección de videos */}
       <h2 className="text-2xl font-bold text-retroBlue mb-4">Video Tutorials</h2>
       {filteredVideos.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {filteredVideos.map((video) => (
             <a
               key={video.id}
