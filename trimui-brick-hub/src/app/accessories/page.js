@@ -51,6 +51,11 @@ export default function AccessoriesPage() {
           buttonColor="bg-gray-700 hover:bg-gray-600"
         />
       </div>
+
+      {/* Disclaimer sobre enlaces referidos */}
+      <p className="text-xs text-gray-600 dark:text-gray-400 text-center mt-8">
+        ⚠️ Some of the links on this page are affiliate links. By using them, you help support this project at no extra cost to you. Thank you! 💙
+      </p>
     </div>
   );
 }
@@ -66,7 +71,7 @@ function AccessoryCard({ image, title, description, link, buttonText, buttonColo
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className={`mt-4 inline-block text-white font-bold py-2 px-4 border-4 border-black shadow-lg ${buttonColor}`}
+        className={`retro-button mt-4 inline-block ${buttonColor}`}
       >
         {buttonText}
       </a>
