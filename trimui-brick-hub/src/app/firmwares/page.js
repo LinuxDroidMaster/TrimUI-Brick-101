@@ -30,22 +30,9 @@ export default function FirmwaresPage() {
         📦 Official Stock Firmware & Modified Versions
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        <FirmwareCard
-          title="Stock Firmware"
-          description="The original firmware that comes with the TrimUI Brick."
-          link="https://github.com/trimui/assets_brick/releases"
-        />
-        <FirmwareCard
-          title="CrossMix"
-          description="An experimental custom firmware with new features."
-          link="https://github.com/cizia64/CrossMix-OS/releases"
-          badge="🚧 In Development"
-        />
-        <FirmwareCard
-          title="StockMix"
-          description="An enhanced version of the stock firmware with extra features."
-          link="https://github.com/costlyclick/stockmix/"
-        />
+        <FirmwareCard title="Stock Firmware" description="The original firmware that comes with the TrimUI Brick." link="https://github.com/trimui/assets_brick/releases" />
+        <FirmwareCard title="CrossMix" description="An experimental custom firmware with new features." link="https://github.com/cizia64/CrossMix-OS/releases" badge="🚧 In Development" />
+        <FirmwareCard title="StockMix" description="An enhanced version of the stock firmware with extra features." link="https://github.com/costlyclick/stockmix/" />
       </div>
 
       {/* Major Community Projects */}
@@ -53,17 +40,8 @@ export default function FirmwaresPage() {
         🌟 Major Community Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        <FirmwareCard
-          title="MinUI"
-          description="A lightweight and optimized firmware focused on minimalism."
-          link="https://github.com/shauninman/MinUI/releases"
-        />
-        <FirmwareCard
-          title="Knulli"
-          description="A firmware based on Batocera, currently in development."
-          link="https://github.com/knulli-cfw/distribution/releases"
-          badge="🚧 In Development"
-        />
+        <FirmwareCard title="MinUI" description="A lightweight and optimized firmware focused on minimalism." link="https://github.com/shauninman/MinUI/releases" />
+        <FirmwareCard title="Knulli" description="A firmware based on Batocera, currently in development." link="https://github.com/knulli-cfw/distribution/releases" badge="🚧 In Development" />
       </div>
 
       {/* Other Community Firmwares */}
@@ -71,19 +49,16 @@ export default function FirmwaresPage() {
         🔧 Other Community Firmwares
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        <FirmwareCard
-          title="AnotherStockMix"
-          description="A custom version of StockMix modified by the community."
-          link="https://github.com/rulerofoz/AnotherStockMix"
-        />
+        <FirmwareCard title="AnotherStockMix" description="A custom version of StockMix modified by the community." link="https://github.com/rulerofoz/AnotherStockMix" />
+        <FirmwareCard title="MinUI Next" description="An improved version of MinUI with smoother gameplay, better audio, and advanced emulator tweaks." link="https://github.com/ro8inmorgan/MinUI" />
       </div>
 
       {/* Extra Tools Section */}
       <h2 className="text-2xl font-bold text-retroBlue mb-4">🛠️ Tools & Utilities</h2>
       <p className="text-black dark:text-white text-center mb-6">
-        There are also community-made tools that enhance your firmware experience.
-        Learn more in my repository:
+        There are also community-made tools that enhance your firmware experience. Learn more in my repository:
       </p>
+
       <div className="flex justify-center">
         <a
           href="https://github.com/LinuxDroidMaster/TrimUI-Brick-101"
@@ -93,6 +68,42 @@ export default function FirmwaresPage() {
         >
           🔗 TrimUI Brick 101 Repo
         </a>
+      </div>
+
+      <div className="h-8" />
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <ToolCard
+          title="TrimUI-Smart-Pro-Custom-MinUI-Paks"
+          description="Custom Optional PAKs for MinUI made by the community."
+          link="https://github.com/ryanmsartor/TrimUI-Brick-and-Smart-Pro-Custom-MinUI-Paks"
+          firmwares={["MinUI"]}
+        />
+        <ToolCard
+          title="TRIMUI_EX"
+          description="Community project to install PortMaster on MinUI."
+          link="https://github.com/kloptops/TRIMUI_EX"
+          firmwares={["MinUI"]}
+        />
+        <ToolCard
+          title="PakUI"
+          description="A collection of MinUI apps created by tenlevels, highly anticipated but still in development."
+          link="https://github.com/tenlevels/PakUI"
+          firmwares={["MinUI"]}
+          badge="🚧 In Development"
+        />
+        <ToolCard
+          title="LedControl"
+          description="LED control app for TrimUI Brick. Works with Stock OS (Mix, Cross, etc.), MinUI, and possibly Knulli."
+          link="https://github.com/ro8inmorgan/LedControl"
+          firmwares={["Stock", "StockMix", "CrossMix", "MinUI"]}
+        />
+        <ToolCard
+          title="BrickTools"
+          description="A collection of system apps and tools to improve the TrimUI Brick on Stock, StockMix, or CrossMix."
+          link="https://github.com/hugorosario/BrickTools"
+          firmwares={["Stock", "StockMix", "CrossMix"]}
+        />
       </div>
     </div>
   );
@@ -111,10 +122,45 @@ function FirmwareCard({ title, description, link, badge }) {
         </div>
       )}
       <p className="text-sm text-gray-700 dark:text-gray-300">{description}</p>
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
+      <a href={link} target="_blank" rel="noopener noreferrer" className="retro-button mt-2 inline-block">
+        Learn More
+      </a>
+    </div>
+  );
+}
+
+// Reusable Tool Card Component
+function ToolCard({ title, description, link, firmwares, badge }) {
+  return (
+    <div className="border-4 border-black p-4 bg-gray-200 dark:bg-gray-800 text-center">
+      <h3 className="text-lg font-bold text-black dark:text-white">{title}</h3>
+      
+      {badge && (
+        <div className="mt-2 mb-2">
+          <span className="bg-yellow-400 dark:bg-yellow-300 text-black text-xs font-bold px-2 py-1 border-2 border-black inline-block">
+            {badge}
+          </span>
+        </div>
+      )}
+      
+      <p className="text-sm text-gray-700 dark:text-gray-300">{description}</p>
+      
+      {/* Firmwares compatibles */}
+      <div className="flex flex-wrap justify-center gap-2 mt-2">
+        {firmwares.map((fw) => (
+          <span 
+            key={fw} 
+            className="bg-gray-800 dark:bg-gray-300 text-white dark:text-black text-xs px-2 py-1 rounded"
+          >
+            {fw}
+          </span>
+        ))}
+      </div>
+      
+      <a 
+        href={link} 
+        target="_blank" 
+        rel="noopener noreferrer" 
         className="retro-button mt-2 inline-block"
       >
         Learn More
