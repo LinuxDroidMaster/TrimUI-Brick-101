@@ -93,9 +93,16 @@ Take your MinUI experience further with these tools, utilities, and custom appli
 - **PakUI - Tools for MinUI:** [PakUI Repository](https://github.com/tenlevels/PakUI)  
 
 ### 🎮 The Best Setup for NDS Games
-Looking to play Nintendo DS games on your TrimUI Brick with the best layouts? This setup leverages the **MinUI Firmware** for optimal results.  
-- **Layouts and Details:** Check out the community post on Reddit to see some images: [DraStic Layout Post](https://www.reddit.com/r/trimui/comments/1i7cbbm/update_drastic_advanced_nds_on_the_trimui_brick/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)  
-- **Downloads and Compatibility:** View the available layout versions tailored to your MinUI version on this Discord message: [DraStic Advanced NDS Setup](https://discord.com/channels/741895796315914271/1095561573046685696/1331914674589012040)  
+
+Looking to play Nintendo DS games on your TrimUI Brick with the best layouts? This setup leverages tailored configurations for different firmwares:
+
+- **For MinUI users:**  
+  - **Layouts and Details:** Check out the community post on Reddit to see some images: [DraStic Layout Post](https://www.reddit.com/r/trimui/comments/1i7cbbm/update_drastic_advanced_nds_on_the_trimui_brick/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)  
+  - **Downloads and Compatibility:** View the available layout versions tailored to your MinUI version on this Discord message: [DraStic Advanced NDS Setup](https://discord.com/channels/741895796315914271/1095561573046685696/1331914674589012040)
+
+- **For Stock-based firmware users (Stock, StockMix, AnotherStock, etc.):**  
+  - **Downloads and Compatibility:** Check out this Discord message for the recommended layout and details: [DraStic Advanced NDS Setup for Stock Firmware](https://discord.com/channels/741895796315914271/1292344741299748956/1329163210221162497)
+
 
 ### 🏗️ Stock Firmware & Alternatives  
 If you're using the **Stock Firmware**, **StockMix**, or **CrossMix**, here are some useful tools to enhance your experience:  
