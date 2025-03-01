@@ -66,8 +66,8 @@
     {
       "id": 4,
       "title": "DraStic Advanced NDS on the TrimUI Brick",
-      "description": "An advanced guide for optimizing DraStic (Nintendo DS emulator) on the TrimUI Brick, including custom layouts and settings.",
-      "link": "https://www.reddit.com/r/trimui/comments/1i7cbbm/update_drastic_advanced_nds_on_the_trimui_brick/"
+      "description": "An advanced guide for optimizing DraStic (Nintendo DS emulator) on the TrimUI Brick, including custom layouts and settings. For MinUI and Stock based firmwares",
+      "link": "https://github.com/LinuxDroidMaster/TrimUI-Brick-101/tree/main?tab=readme-ov-file#-the-best-setup-for-nds-games"
     }        
   ]
 }
