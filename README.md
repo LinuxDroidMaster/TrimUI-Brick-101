@@ -101,7 +101,9 @@ Looking to play Nintendo DS games on your TrimUI Brick with the best layouts? Th
   - **Downloads and Compatibility:** View the available layout versions tailored to your MinUI version on this Discord message: [DraStic Advanced NDS Setup](https://discord.com/channels/741895796315914271/1095561573046685696/1331914674589012040)
 
 - **For Stock-based firmware users (Stock, StockMix, AnotherStock, etc.):**  
-  - **Downloads and Compatibility:** Check out this Discord message for the recommended layout and details: [DraStic Advanced NDS Setup for Stock Firmware](https://discord.com/channels/741895796315914271/1292344741299748956/1329163210221162497)
+  - **Downloads and Compatibility:** Check out this Discord message for the recommended layout and details: [DraStic Advanced NDS Setup for Stock Firmware](https://discord.com/channels/741895796315914271/1292344741299748956/1329163210221162497)  
+  - **DraStic Advanced Emulator Download:** You can also download the emulator directly from Google Drive: [DraStic Advanced for Stock based firmwares](https://drive.google.com/file/d/1g8aa-LQDV9zvj2Yi50_yszdJcuywWVtA/view?usp=sharing)
+
 
 
 ### 🏗️ Stock Firmware & Alternatives  
