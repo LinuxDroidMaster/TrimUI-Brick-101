@@ -1,17 +1,25 @@
-export default function InfoPage() {
+export default function SpecsPage() {
   return (
     <div className="max-w-3xl mx-auto p-6">
       <h1 className="text-3xl font-bold text-retroPurple dark:text-retroYellow text-center mb-6">
         Specs & Features
       </h1>
 
-      {/* Imagen de la consola */}
-      <div className="flex justify-center mb-6">
+      {/* Imagen de la consola y botón de compra */}
+      <div className="flex flex-col items-center mb-6">
         <img
           src="/images/trimui-brick.png"
           alt="TrimUI Brick Handheld"
-          className="w-64 border-4 border-black"
+          className="w-64 border-4 border-black mb-4"
         />
+        <a
+          href="https://s.click.aliexpress.com/e/_EwN4dte"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="retro-button bg-red-600 text-white font-bold py-2 px-4 border-4 border-black shadow-lg w-52 text-center text-sm"
+        >
+          Buy on AliExpress
+        </a>
       </div>
 
       {/* Main Features */}
@@ -20,17 +28,13 @@ export default function InfoPage() {
       </h2>
       <ul className="list-disc list-inside text-black dark:text-white mb-6 space-y-2">
         <li>
-          🎮 <strong>3.2-inch IPS full-fit screen</strong>: Crystal-clear display
-          for an immersive gaming experience with eye protection.
+          🎮 <strong>3.2-inch IPS full-fit screen</strong>: Crystal-clear display for an immersive gaming experience with eye protection.
         </li>
         <li>
-          🔥 <strong>Cool atmosphere light</strong>: RGB lighting on the back,
-          shoulder buttons (L1/L2/R1/R2), and F1/F2 keys with adjustable
-          breathing effect.
+          🔥 <strong>Cool atmosphere light</strong>: RGB lighting on the back, shoulder buttons (L1/L2/R1/R2), and F1/F2 keys with adjustable breathing effect.
         </li>
         <li>
-          ✨ <strong>Personalized customization</strong>: CNC metal back plate
-          for engraving, removable shoulder keys, and customizable styling.
+          ✨ <strong>Personalized customization</strong>: CNC metal back plate for engraving, removable shoulder keys, and customizable styling.
         </li>
       </ul>
 
@@ -85,6 +89,7 @@ export default function InfoPage() {
         <a
           href="https://www.reddit.com/r/trimui/"
           target="_blank"
+          rel="noopener noreferrer"
           className="bg-[#FF4500] hover:bg-[#cc3700] text-white font-bold py-2 px-4 text-center border-4 border-black shadow-lg"
         >
           Join the TrimUI Reddit Community
@@ -92,6 +97,7 @@ export default function InfoPage() {
         <a
           href="https://discord.gg/c4xWQW6w"
           target="_blank"
+          rel="noopener noreferrer"
           className="bg-[#5865F2] hover:bg-[#4a55d1] text-white font-bold py-2 px-4 text-center border-4 border-black shadow-lg"
         >
           Join the Retro Handhelds Discord
@@ -100,4 +106,3 @@ export default function InfoPage() {
     </div>
   );
 }
-

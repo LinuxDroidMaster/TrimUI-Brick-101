@@ -60,8 +60,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/info" className="hover:text-gray-400 px-2">
-              Info
+            <Link href="/specs" className="hover:text-gray-400 px-2">
+              Specs
             </Link>
           </li>
         </ul>
@@ -105,8 +105,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="/info" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
-                Info
+              <Link href="/specs" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
+                Specs
               </Link>
             </li>
           </ul>

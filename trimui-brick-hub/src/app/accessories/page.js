@@ -63,10 +63,14 @@ export default function AccessoriesPage() {
 // Reusable Accessory Card Component
 function AccessoryCard({ image, title, description, link, buttonText, buttonColor }) {
   return (
-    <div className="border-4 border-black p-4 bg-gray-200 dark:bg-gray-800 text-center">
-      <img src={image} alt={title} className="w-32 h-32 mx-auto mb-4 border-4 border-black" />
-      <h3 className="text-lg font-bold text-black dark:text-white">{title}</h3>
-      <p className="text-sm text-gray-700 dark:text-gray-300">{description}</p>
+    <div className="border-4 border-black p-4 bg-retroBlue text-white text-center">
+      <img
+        src={image}
+        alt={title}
+        className="w-32 h-32 mx-auto mb-4 border-4 border-black"
+      />
+      <h3 className="text-lg font-bold">{title}</h3>
+      <p className="text-sm text-white">{description}</p>
       <a
         href={link}
         target="_blank"

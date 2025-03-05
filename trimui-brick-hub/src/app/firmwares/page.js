@@ -1,7 +1,7 @@
 export default function FirmwaresPage() {
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-retroPurple text-center mb-6">
+      <h1 className="text-3xl font-bold text-retroPurple mb-6 text-center">
         Custom Firmwares for TrimUI Brick
       </h1>
 
@@ -30,9 +30,22 @@ export default function FirmwaresPage() {
         📦 Official Stock Firmware & Modified Versions
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        <FirmwareCard title="Stock Firmware" description="The original firmware that comes with the TrimUI Brick." link="https://github.com/trimui/assets_brick/releases" />
-        <FirmwareCard title="CrossMix" description="An experimental custom firmware with new features." link="https://github.com/cizia64/CrossMix-OS/releases" badge="🚧 In Development" />
-        <FirmwareCard title="StockMix" description="An enhanced version of the stock firmware with extra features." link="https://github.com/costlyclick/stockmix/" />
+        <FirmwareCard 
+          title="Stock Firmware" 
+          description="The original firmware that comes with the TrimUI Brick." 
+          link="https://github.com/trimui/assets_brick/releases" 
+        />
+        <FirmwareCard 
+          title="CrossMix" 
+          description="An experimental custom firmware with new features." 
+          link="https://github.com/cizia64/CrossMix-OS/releases" 
+          badge="🚧 In Development" 
+        />
+        <FirmwareCard 
+          title="StockMix" 
+          description="An enhanced version of the stock firmware with extra features." 
+          link="https://github.com/costlyclick/stockmix/" 
+        />
       </div>
 
       {/* Major Community Projects */}
@@ -40,8 +53,17 @@ export default function FirmwaresPage() {
         🌟 Major Community Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        <FirmwareCard title="MinUI" description="A lightweight and optimized firmware focused on minimalism." link="https://github.com/shauninman/MinUI/releases" />
-        <FirmwareCard title="Knulli" description="A firmware based on Batocera, currently in development." link="https://github.com/knulli-cfw/distribution/releases" badge="🚧 In Development" />
+        <FirmwareCard 
+          title="MinUI" 
+          description="A lightweight and optimized firmware focused on minimalism." 
+          link="https://github.com/shauninman/MinUI/releases" 
+        />
+        <FirmwareCard 
+          title="Knulli" 
+          description="A firmware based on Batocera, currently in development." 
+          link="https://github.com/knulli-cfw/distribution/releases" 
+          badge="🚧 In Development" 
+        />
       </div>
 
       {/* Other Community Firmwares */}
@@ -49,8 +71,16 @@ export default function FirmwaresPage() {
         🔧 Other Community Firmwares
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        <FirmwareCard title="AnotherStockMix" description="A custom version of StockMix modified by the community." link="https://github.com/rulerofoz/AnotherStockMix" />
-        <FirmwareCard title="MinUI Next" description="An improved version of MinUI with smoother gameplay, better audio, and advanced emulator tweaks." link="https://github.com/ro8inmorgan/MinUI" />
+        <FirmwareCard 
+          title="AnotherStockMix" 
+          description="A custom version of StockMix modified by the community." 
+          link="https://github.com/rulerofoz/AnotherStockMix" 
+        />
+        <FirmwareCard 
+          title="MinUI Next" 
+          description="An improved version of MinUI with smoother gameplay, better audio, and advanced emulator tweaks." 
+          link="https://github.com/ro8inmorgan/MinUI" 
+        />
       </div>
 
       {/* Extra Tools Section */}
@@ -112,8 +142,8 @@ export default function FirmwaresPage() {
 // Reusable Firmware Card Component with Optional Badge
 function FirmwareCard({ title, description, link, badge }) {
   return (
-    <div className="border-4 border-black p-4 bg-gray-200 dark:bg-gray-800 text-center">
-      <h3 className="text-lg font-bold text-black dark:text-white">{title}</h3>
+    <div className="border-4 border-black p-4 bg-retroBlue text-white text-center">
+      <h3 className="text-lg font-bold">{title}</h3>
       {badge && (
         <div className="mt-2 mb-2">
           <span className="bg-yellow-400 text-black text-xs font-bold px-2 py-1 border-2 border-black inline-block">
@@ -121,8 +151,13 @@ function FirmwareCard({ title, description, link, badge }) {
           </span>
         </div>
       )}
-      <p className="text-sm text-gray-700 dark:text-gray-300">{description}</p>
-      <a href={link} target="_blank" rel="noopener noreferrer" className="retro-button mt-2 inline-block">
+      <p className="text-sm">{description}</p>
+      <a 
+        href={link} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="retro-button mt-2 inline-block"
+      >
         Learn More
       </a>
     </div>
@@ -132,8 +167,8 @@ function FirmwareCard({ title, description, link, badge }) {
 // Reusable Tool Card Component
 function ToolCard({ title, description, link, firmwares, badge }) {
   return (
-    <div className="border-4 border-black p-4 bg-gray-200 dark:bg-gray-800 text-center">
-      <h3 className="text-lg font-bold text-black dark:text-white">{title}</h3>
+    <div className="border-4 border-black p-4 bg-retroBlue text-white text-center">
+      <h3 className="text-lg font-bold">{title}</h3>
       
       {badge && (
         <div className="mt-2 mb-2">
@@ -143,9 +178,9 @@ function ToolCard({ title, description, link, firmwares, badge }) {
         </div>
       )}
       
-      <p className="text-sm text-gray-700 dark:text-gray-300">{description}</p>
+      <p className="text-sm">{description}</p>
       
-      {/* Firmwares compatibles */}
+      {/* Compatible firmwares */}
       <div className="flex flex-wrap justify-center gap-2 mt-2">
         {firmwares.map((fw) => (
           <span 
@@ -168,4 +203,3 @@ function ToolCard({ title, description, link, firmwares, badge }) {
     </div>
   );
 }
-

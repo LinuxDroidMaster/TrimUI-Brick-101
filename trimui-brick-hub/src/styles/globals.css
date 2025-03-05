@@ -8,25 +8,31 @@ body {
   text-transform: uppercase;
 }
 
-/* Botón con efecto retro */
+/* Botón con efecto retro: se ha eliminado el fondo predeterminado para que cada botón defina el suyo */
 .retro-button {
-  @apply bg-retroBlue text-white border-4 border-black px-4 py-2 shadow-lg;
-  transition: transform 0.1s ease-in-out;
+  @apply text-white border-4 border-black px-4 py-2 shadow-lg;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
 }
 
 .retro-button:hover {
   transform: translate(-2px, -2px);
-  box-shadow: 6px 6px black;
+  box-shadow: 6px 6px black; /* Efecto hover en modo claro */
+}
+
+/* Efecto hover para modo oscuro */
+.dark .retro-button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px #e0e0e0; /* Efecto hover en modo oscuro */
 }
 
 .faq-link {
-  color: #facc15; /* Amarillo brillante */
+  color: #facc15;
   font-weight: bold;
   text-decoration: underline;
-  text-decoration-thickness: 2px; /* Subrayado grueso */
+  text-decoration-thickness: 2px;
   transition: color 0.2s ease-in-out;
 }
 
 .faq-link:hover {
-  color: #fde047; /* Amarillo más claro al pasar el mouse */
+  color: #fde047;
 }
