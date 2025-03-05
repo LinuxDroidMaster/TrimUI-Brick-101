@@ -21,7 +21,6 @@ export default function Navbar() {
     const newDarkMode = !darkMode;
     setDarkMode(newDarkMode);
     localStorage.setItem("darkMode", newDarkMode.toString());
-
     if (newDarkMode) {
       document.documentElement.classList.add("dark");
     } else {
@@ -30,59 +29,60 @@ export default function Navbar() {
   };
 
   return (
-    <header className="p-4 bg-gray-800 text-white">
-      <nav className="flex justify-between items-center max-w-5xl mx-auto">
-        {/* Logo */}
-        <h1 className="text-lg font-bold">
-          <Link href="/">TrimUI Brick Hub</Link>
-        </h1>
-
-        {/* Menú para pantallas grandes */}
-        <ul className="hidden md:flex gap-6 text-sm">
-          <li>
-            <Link href="/faqs" className="hover:text-gray-400 px-2">
-              FAQs
-            </Link>
-          </li>
-          <li>
-            <Link href="/guides" className="hover:text-gray-400 px-2">
-              Guides
-            </Link>
-          </li>
-          <li>
-            <Link href="/firmwares" className="hover:text-gray-400 px-2">
-              Firmwares
-            </Link>
-          </li>
-          <li>
-            <Link href="/accessories" className="hover:text-gray-400 px-2">
-              Accessories
-            </Link>
-          </li>
-          <li>
-            <Link href="/specs" className="hover:text-gray-400 px-2">
-              Specs
-            </Link>
-          </li>
-        </ul>
-
-        {/* Botón de modo oscuro */}
-        <button
-          onClick={toggleDarkMode}
-          className="hidden md:block retro-button px-3 py-1 text-xs"
-        >
-          {darkMode ? "☀️" : "🌙"}
-        </button>
-
-        {/* Botón hamburguesa para móvil */}
-        <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden text-2xl">
-          ☰
-        </button>
-      </nav>
-
-      {/* Menú desplegable en móvil */}
+    <header className="w-full bg-gray-800 text-white">
+      <div className="max-w-5xl mx-auto px-4">
+        <nav className="flex items-center justify-between py-4">
+          {/* Logo */}
+          <div className="flex items-center">
+            <h1 className="text-base sm:text-xl font-bold text-retroYellow whitespace-nowrap overflow-hidden truncate pr-4 border-r-2 border-gray-600 mr-4 transition-transform duration-200 hover:scale-105">
+              <Link href="/">TrimUI Brick Hub</Link>
+            </h1>
+          </div>
+          {/* Menú Desktop */}
+          <ul className="hidden md:flex gap-6 text-sm">
+            <li>
+              <Link href="/faqs" className="hover:text-gray-400 px-2">
+                FAQs
+              </Link>
+            </li>
+            <li>
+              <Link href="/guides" className="hover:text-gray-400 px-2">
+                Guides
+              </Link>
+            </li>
+            <li>
+              <Link href="/firmwares" className="hover:text-gray-400 px-2">
+                Firmwares
+              </Link>
+            </li>
+            <li>
+              <Link href="/accessories" className="hover:text-gray-400 px-2">
+                Accessories
+              </Link>
+            </li>
+            <li>
+              <Link href="/specs" className="hover:text-gray-400 px-2">
+                Specs
+              </Link>
+            </li>
+          </ul>
+          {/* Botón de modo oscuro (Desktop) */}
+          <div className="hidden md:flex items-center">
+            <button onClick={toggleDarkMode} className="retro-button px-3 py-1 text-xs ml-6">
+              {darkMode ? "☀️" : "🌙"}
+            </button>
+          </div>
+          {/* Botón hamburguesa (Móvil) */}
+          <div className="md:hidden">
+            <button onClick={() => setMenuOpen(!menuOpen)} className="text-2xl">
+              ☰
+            </button>
+          </div>
+        </nav>
+      </div>
+      {/* Menú móvil */}
       {menuOpen && (
-        <div className="md:hidden bg-gray-900 text-white p-4 mt-2 rounded-lg">
+        <div className="bg-gray-900 text-white px-4 py-4">
           <ul className="flex flex-col gap-4">
             <li>
               <Link href="/faqs" className="hover:text-gray-400" onClick={() => setMenuOpen(false)}>
@@ -110,8 +110,6 @@ export default function Navbar() {
               </Link>
             </li>
           </ul>
-
-          {/* Botón de modo oscuro dentro del menú móvil */}
           <button onClick={toggleDarkMode} className="mt-4 w-full retro-button">
             {darkMode ? "☀️" : "🌙"}
           </button>

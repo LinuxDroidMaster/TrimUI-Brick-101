@@ -11,6 +11,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
         />
+        <link rel="icon" href="/images/favicon.webp" />
       </head>
       <body className="bg-background text-foreground font-retro transition-colors duration-300">
         <Navbar />

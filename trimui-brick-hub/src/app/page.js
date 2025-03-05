@@ -52,7 +52,7 @@ export default function Home() {
             </p>
             <a
               href="/guides"
-              className="retro-button mt-6 bg-blue-600 text-white font-bold py-2 px-4 border-4 border-black shadow-lg w-52 text-center text-sm"
+              className="retro-button mt-6 bg-retroBlue text-white font-bold py-2 px-4 border-4 border-black shadow-lg w-52 text-center text-sm"
             >
               Start
             </a>

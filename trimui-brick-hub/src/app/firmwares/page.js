@@ -94,11 +94,12 @@ export default function FirmwaresPage() {
           href="https://github.com/LinuxDroidMaster/TrimUI-Brick-101"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-2 px-6 border-4 border-black shadow-lg text-center"
+          className="retro-button bg-yellow-500 text-black font-bold py-2 px-6 border-4 border-black shadow-lg text-center"
         >
           🔗 TrimUI Brick 101 Repo
         </a>
       </div>
+
 
       <div className="h-8" />
 
