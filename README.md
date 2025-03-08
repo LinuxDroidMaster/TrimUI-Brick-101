@@ -96,6 +96,9 @@ Take your MinUI experience further with these tools, utilities, and custom appli
 
 Looking to play Nintendo DS games on your TrimUI Brick with the best layouts? This setup leverages tailored configurations for different firmwares:
 
+> [!TIP]
+> 🎥 **Check out my tutorial on how to best run the DraStic Advanced emulator:** [Watch the video](https://youtu.be/sgFdwBNR0_w?feature=shared)
+
 - **For MinUI users:**  
   - **Layouts and Details:** Check out the community post on Reddit to see some images: [DraStic Layout Post](https://www.reddit.com/r/trimui/comments/1i7cbbm/update_drastic_advanced_nds_on_the_trimui_brick/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)  
   - **Downloads and Compatibility:** View the available layout versions tailored to your MinUI version on this Discord message: [DraStic Advanced NDS Setup](https://discord.com/channels/741895796315914271/1095561573046685696/1331914674589012040)
