@@ -77,7 +77,7 @@ export default function FirmwaresPage() {
           link="https://github.com/rulerofoz/AnotherStockMix" 
         />
         <FirmwareCard 
-          title="MinUI Next" 
+          title="NextUI (old MinUI Next)" 
           description="An improved version of MinUI with smoother gameplay, better audio, and advanced emulator tweaks." 
           link="https://github.com/ro8inmorgan/MinUI" 
         />
