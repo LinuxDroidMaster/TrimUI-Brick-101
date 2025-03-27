@@ -1,5 +1,7 @@
 # 📚 TrimUI Brick Guide: Firmware, Pico-8, PortMaster & More!
 
+> 🚨 **Find even more information and resources on my website:** [trimui-brick.vercel.app](https://trimui-brick.vercel.app)
+
 Welcome to the ultimate guide for the TrimUI Brick! This repository contains everything you need to know about installing firmware, using Pico-8, PortMaster, and exploring HackROMs for your handheld console. Let's dive into the details! 🚀
 
 > [!TIP]  
@@ -101,7 +103,8 @@ Looking to play Nintendo DS games on your TrimUI Brick with the best layouts? Th
 
 - **For MinUI users:**  
   - **Layouts and Details:** Check out the community post on Reddit to see some images: [DraStic Layout Post](https://www.reddit.com/r/trimui/comments/1i7cbbm/update_drastic_advanced_nds_on_the_trimui_brick/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)  
-  - **Downloads and Compatibility:** View the available layout versions tailored to your MinUI version on this Discord message: [DraStic Advanced NDS Setup](https://discord.com/channels/741895796315914271/1095561573046685696/1331914674589012040)
+  - **Downloads and Compatibility:** View the available layout versions tailored to your MinUI version on this Discord message: [DraStic Advanced NDS Setup](https://discord.com/channels/741895796315914271/1095561573046685696/1331914674589012040)  
+  - **DraStic Advanced Emulator Download (Google Drive):** You can also download the emulator directly from Google Drive: [DraStic Advanced for MinUI](https://drive.google.com/file/d/1OgZK7vc56-mh0MJ2KX7Tn-MneThWOBxK/view?usp=sharing)
 
 - **For Stock-based firmware users (Stock, StockMix, AnotherStock, etc.):**  
   - **Downloads and Compatibility:** Check out this Discord message for the recommended layout and details: [DraStic Advanced NDS Setup for Stock Firmware](https://discord.com/channels/741895796315914271/1292344741299748956/1329163210221162497)  
