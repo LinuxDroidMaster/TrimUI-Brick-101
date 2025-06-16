@@ -58,11 +58,10 @@ export default function FirmwaresPage() {
           description="A lightweight and optimized firmware focused on minimalism." 
           link="https://github.com/shauninman/MinUI/releases" 
         />
-        <FirmwareCard 
-          title="Knulli" 
-          description="A firmware based on Batocera, currently in development." 
-          link="https://github.com/knulli-cfw/distribution/releases" 
-          badge="🚧 In Development" 
+        <FirmwareCard
+          title="Knulli"
+          description="A firmware based on Batocera, currently in development."
+          link="https://github.com/knulli-cfw/distribution/releases"
         />
       </div>
 
@@ -121,7 +120,13 @@ export default function FirmwaresPage() {
           description="A collection of MinUI apps created by tenlevels, highly anticipated but still in development."
           link="https://github.com/tenlevels/PakUI"
           firmwares={["MinUI"]}
-          badge="🚧 In Development"
+        />
+        <ToolCard
+          title="PAK Store"
+          description="An easy way to download PAKs on NextUI."
+          link="https://github.com/UncleJunVIP/nextui-pak-store"
+          firmwares={["NextUI"]}
+          badge="🌟 Featured"
         />
         <ToolCard
           title="LedControl"
