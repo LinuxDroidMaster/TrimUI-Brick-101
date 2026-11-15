@@ -140,6 +140,12 @@ export default function FirmwaresPage() {
           link="https://github.com/hugorosario/BrickTools"
           firmwares={["Stock", "StockMix", "CrossMix"]}
         />
+        <ToolCard
+          title="OZMA"
+          description="A free groovebox in open beta. Chop samples, sequence sounds and launch clips with the handheld’s buttons. OZMA 0.9.2 was tested on a TrimUI Brick running spruce."
+          link="https://orumet.itch.io/ozma"
+          firmwares={["spruce"]}
+        />
       </div>
     </div>
   );
